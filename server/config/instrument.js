@@ -3,7 +3,7 @@ import * as Sentry from "@sentry/node"
 import { nodeProfilingIntegration } from "@sentry/profiling-node";
 
 Sentry.init({
-  dsn: "",
+  dsn: "https://7bddbf7050adb8ee0e61ad9d986c0a17@o4510144523599872.ingest.us.sentry.io/4510144531595264",
   integrations: [
     nodeProfilingIntegration(),
     Sentry.mongooseIntegration()
